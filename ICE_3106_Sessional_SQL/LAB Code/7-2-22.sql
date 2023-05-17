@@ -1,0 +1,16 @@
+use master;
+use pubs;
+select *from Titles;
+select *from titles where ytd_sales>8000;
+select *from titles where royalty>=12 and royalty<=24;
+select *from titles order by price asc;
+select *from titles order by price desc;
+select Avg(price)as avg from titles;
+select Type,avg(royalty) as A,MAX(price) as Max from titles group by type;
+select Type,royalty,Max(price) as Grouped from titles group by type having AVG(price)>15;
+select Type,Avg(price) as Average from titles group by type;
+select Type,Sum(ytd_sales) as TotalYearlySell,Avg(price) as Average from titles group by type;
+select *from authors;
+select au_fname,au_lname from authors;
+select "Name"=Substring(au_fname,1,1)+'.'+au_lname, phone from authors;
+select au_fname+au_lname as Name, phone from authors;

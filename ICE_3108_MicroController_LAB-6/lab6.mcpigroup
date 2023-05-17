@@ -1,0 +1,11 @@
+[PROJECTS]
+Count=7
+Project0=..\..\Lab Code\lab3.mcppi
+Project1=..\LAB-3\lab3.mcppi
+Project2=..\..\Lab Code\lab4.mcppi
+Project3=..\LAB-4\lab4.mcppi
+Project4=..\..\Lab Code\lab5.mcppi
+Project5=..\..\Lab Code\lab5b2.mcppi
+Project6=lab6.mcppi
+[ActiveProject]
+Index=6
